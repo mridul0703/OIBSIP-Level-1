@@ -9,11 +9,11 @@
   - Live link - [Link](https://oasis1.vercel.app/)
 
 - Level 1 ) Task 2
-  - Github Repository Code - [Code](https://github.com/mridul0703/OIBSIP/tree/main/OIBSIP%20Level-1%20Task-1)
-  - Live link - [Link](https://oasis1.vercel.app/)
+  - Github Repository Code - [Code](https://github.com/mridul0703/OIBSIP/tree/main/OIBSIP%20Level-1%20Task-2)
+  - Live link - [Link](https://mridul0703.vercel.app/)
  
 - Level 1 ) Task 3
-  - Github Repository Code - [Code](https://github.com/mridul0703/OIBSIP/tree/main/OIBSIP%20Level-1%20Task-1)
+  - Github Repository Code - [Code](https://github.com/mridul0703/OIBSIP/tree/main/OIBSIP%20Level-1%20Task-3)
   - Live link - [Link](https://oasis1.vercel.app/)
  
 ## Contributing
