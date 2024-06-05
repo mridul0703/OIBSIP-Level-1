@@ -15,7 +15,7 @@
   color: #fff;
 }
 :root {
-  --main-color: #ffb411;
+  --main-color:rgb(0, 149, 255) !important;
   --text-color: #1e1c2a;
   --bg-color: #fff;
 
@@ -101,7 +101,7 @@ header {
   color: #fff;
 }
 .btn:hover {
-  background: #ffa400;
+  background: #1500ff;
 }
 .about {
   display: grid;
@@ -183,7 +183,7 @@ header {
   padding: 5px 8px;
 }
 .box .bx:hover {
-  background: #ffa400;
+  background: #1500ff;
 }
 .servives-container {
   display: grid;
