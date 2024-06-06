@@ -1,27 +1,80 @@
-// script.js
-const celsiusElem = document.querySelector("#celsius");
-const degree = document.querySelector("#degree");
-const convertBtn = document.querySelector("#convert-btn");
-const tempType = document.querySelector("#temp-type");
-
-window.addEventListener("load", () => {
-  degree.value = "";
-  celsiusElem.innerHTML = "";
+$("form").submit(function (event) {
+  event.preventDefault();
+  convertInputDegree();
 });
+function convertInputDegree() {
+  let inputDegree = parseInt($("#inputDegree").val());
+  let selectInputDegreeType = $("#selectInputDegreeType").val();
+  let conversionType = $("#selectConversionType").val();
 
-convertBtn.addEventListener("click", (e) => {
-  e.preventDefault();
-  convertToCelsius();
-});
+  let resultValue = "";
 
-function convertToCelsius() {
-  let inputValue = degree.value;
+  switch (selectInputDegreeType) {
+    case "C":
+      resultValue = cTo(inputDegree, conversionType);
+      break;
 
-if (tempType.value === "fahrenheit") {
-    const FahrenheitToCelsius = (inputValue - 32) * (5 / 9);
-    celsiusElem.innerHTML = `${FahrenheitToCelsius.toFixed(3)} &deg;c`;
-  } else if (tempType.value === "kelvin") {
-    const KelvinToCelsius = inputValue - 273.15;
-    celsiusElem.innerHTML = `${KelvinToCelsius.toFixed(3)} &deg;c`;
+    case "F":
+      resultValue = fTo(inputDegree, conversionType);
+      break;
+
+    case "K":
+      resultValue = kTo(inputDegree, conversionType);
+      break;
   }
+  if (isNaN(inputDegree)) {
+    $("#convertedDegree").text("");
+    return;
+  }
+  $("#convertedUnit").text(conversionType);
+  $("#convertedDegree").text(resultValue.toFixed(2));
+}
+function fTo(inputDegreeValue, conversionDegreeType) {
+  let temperature = "";
+
+  switch (conversionDegreeType) {
+    case "F":
+      temperature = inputDegreeValue;
+      break;
+    case "C":
+      temperature = eval((inputDegreeValue - 32) * (5 / 9));
+      break;
+    case "K":
+      temperature = eval((inputDegreeValue + 459.67) * (5 / 9));
+      break;
+  }
+  return temperature;
+}
+function cTo(inputDegreeValue, conversionDegreeType) {
+  let temperature = "";
+
+  switch (conversionDegreeType) {
+    case "C":
+      temperature = inputDegreeValue;
+      break;
+    case "F":
+      temperature = eval(inputDegreeValue * (9 / 5) + 32);
+      break;
+    case "K":
+      temperature = eval(inputDegreeValue + 273.15);
+      break;
+  }
+
+  return temperature;
+}
+function kTo(inputDegreeValue, conversionDegreeType) {
+  let temperature = "";
+
+  switch (conversionDegreeType) {
+    case "K":
+      temperature = inputDegreeValue;
+      break;
+    case "F":
+      temperature = eval((inputDegreeValue - 273.15) * (9 / 5) + 32);
+      break;
+    case "C":
+      temperature = eval(inputDegreeValue - 273.15);
+      break;
+  }
+  return temperature;
 }

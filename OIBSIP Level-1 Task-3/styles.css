@@ -1,96 +1,128 @@
-/*style.css */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+:root {
+	--primary-color: rgb(0, 29, 143);
+	--secondary-color: rgb(42, 113, 255);
 }
 
 body {
-  background-color: #2321af;
-  color: #222;
-  font-size: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
+	color: var(--secondary-color);
+	background-image: url("./assets/bg-img.jpg");
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
 }
-.title {
-  color: #222;
-  font-size: 1.5rem;
-  text-align: center;
+
+
+
+.card {
+	padding: 20px 0px;
+	border-radius: 10px;
 }
-.temperature-converter {
-  background: #ecebeb;
-  border-radius: 5px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 30px 25px 20px;
-  min-width: 320px;
-  width: 100%;
-  height: auto;
+
+/* Input Section */
+
+.card-title {
+	font-size: 24px;
+	padding: 20px 0px;
+	font-weight: 600;
 }
-.result {
-  text-align: center;
-  margin: 20px 0;
-}
-.result-heading {
-  color: #555;
-  font-size: 1rem;
-  font-weight: 600;
-}
-.celsius-value {
-  border-bottom: 2px solid #ccc;
-  padding: 10px;
-}
+
 label {
-  color: #555;
-  font-size: 0.8rem;
-  margin-bottom: 5px;
+	font-weight: 500;
 }
-input,
+
 select {
-  background: transparent;
-  border: none;
-  outline: none;
-  border-bottom: 2px solid #ccc;
-  padding: 8px;
-  margin-bottom: 15px;
+	margin-bottom: 40px;
 }
-input:focus {
-  border: 1px solid #4c49f3;
+
+#selectInputDegreeType {
+	border-radius: 0px 3px 3px 0px;
 }
-.degree-type {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
+
+.convertBtn {
+	min-width: 10px;
+	background-color: var(--primary-color);
 }
-.degree-field {
-  display: flex;
-  flex-direction: column;
-  width: 46%;
+
+.convertBtn:hover {
+	transition: 0.5s;
+	background-color: var(--secondary-color);
 }
-option {
-  background-color: #3c39e7;
-  color: #f6f6f6;
+
+/* Result Section */
+
+#resultValueSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 500px;
+	height: 200px;
+	word-wrap: normal;
+	text-align: center;
+	font-size-adjust: 0.58;
 }
-#convert-btn {
-  background: linear-gradient(to bottom, #3633f3, #120fb9);
-  border: none;
-  outline: none;
-  border-radius: 5px;
-  color: #f6f6f6;
-  cursor: pointer;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-top: 10px;
-  padding: 12px 80px;
-  transition: all 0.3s ease-in;
+
+#convertedDegree {
+	font-size: 65px;
+	font-weight: 500;
+	max-width: 500px;
 }
-#convert-btn:hover {
-  background: linear-gradient(to bottom, #4a47e7, #322fda);
+
+#convertedUnit,
+#degree {
+	padding-bottom: 70px;
+}
+
+.resultSection {
+	background-color: var(--primary-color);
+	color: white;
+}
+
+/* Mobile view  */
+@media only screen and (max-width: 600px) {
+	body {
+		display: relative;
+		overflow: hidden;
+	}
+
+	.card-group {
+		padding: 0;
+	}
+
+	.card {
+		border: none;
+		border-radius: 0;
+		padding: 0;
+	}
+
+	.card-title {
+		line-height: 40px;
+	}
+
+	.card-body {
+		padding: 0;
+	}
+
+	.resultSection {
+		position: fixed;
+		top: 0;
+		padding: 10px 0px;
+		text-align: center;
+	}
+
+	.inputSection {
+		margin-top: 60%;
+	}
+
+	#degree,
+	#convertedUnit {
+		padding-top: 50px;
+	}
+}
+
+footer {
+	color: #fff;
+	text-align: center;
 }
