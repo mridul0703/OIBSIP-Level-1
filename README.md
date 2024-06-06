@@ -4,15 +4,15 @@
 
 ## Deployment Details
 
-- Level 1 ) Task 1
+- Level 1 ) Task 1 = Landing Page 
   - Github Repository Code - [Code](https://github.com/mridul0703/OIBSIP/tree/main/OIBSIP%20Level-1%20Task-1)
   - Live link - [Link](https://oasis1.vercel.app/)
 
-- Level 1 ) Task 2
+- Level 1 ) Task 2 = Personal Portfolio
   - Github Repository Code - [Code](https://github.com/mridul0703/OIBSIP/tree/main/OIBSIP%20Level-1%20Task-2)
   - Live link - [Link](https://mridul0703.vercel.app/)
  
-- Level 1 ) Task 3
+- Level 1 ) Task 3 = Temprature Convertor
   - Github Repository Code - [Code](https://github.com/mridul0703/OIBSIP/tree/main/OIBSIP%20Level-1%20Task-3)
   - Live link - [Link](https://oasis03.vercel.app/)
 
