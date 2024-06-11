@@ -11,7 +11,7 @@ Welcome to the Oasis Infobyte Internship Projects repository! This repository co
    - Technologies Used: HTML, CSS, JavaScript.
    - [Link to Project Repository](https://github.com/mridul0703/OIBSIP-Level-1/tree/main/OIBSIP%20Level-1%20Task-1)
    - [Demo Link](https://landing-page-mridul.vercel.app/)
-
+</br></br>
 2. **OASIS Task-2 - Personal Portfolio Website**
    </br></br>
    <img alt="Personal Portfolio Website" src="https://github.com/mridul0703/OIBSIP-Level-1/blob/main/OIBSIP%20Level-1%20Task-2/Images/readme-img1.png" />
@@ -19,15 +19,15 @@ Welcome to the Oasis Infobyte Internship Projects repository! This repository co
    - Technologies Used: React.js, JavaScript, CSS3, HTML, VsCode, Vercel
    - [Link to Project Repository](https://github.com/mridul0703/OIBSIP-Level-1/tree/main/OIBSIP%20Level-1%20Task-2)
    - [Demo Link](https://mridul0703.vercel.app/)
-
+</br>
 3. **OASIS_WD_05 - Temprature Converter Website**
     </br></br>
-   <img alt="Weather App" src="https://github.com/mridul0703/Prodigy-Infotech/blob/main/PRODIGY_WD_05/src/images/demo-image.png" />
-   - Description: Welcome to the Weather App! This application allows you to search for and view weather information for any city. It displays current weather data and supports both Celsius and Fahrenheit temperature units. Enjoy a responsive design for an optimal user experience across all devices.
-   - Technologies Used: React.js, Axios, OpenWeather API, CSS3, VsCode, Vercel
-   - [Link to Project Repository](https://github.com/mridul0703/Prodigy-Infotech/tree/main/PRODIGY_WD_05)
-   - [Demo Link](https://mridul-weather-app.vercel.app/)
-
+   <img alt="Weather App" src="https://github.com/mridul0703/OIBSIP-Level-1/blob/main/OIBSIP%20Level-1%20Task-3/assets/demo.png" />
+   - Description: This project is a simple yet powerful Temperature Converter built with HTML, CSS, JavaScript, and Bootstrap. Enter a temperature in Celsius, Fahrenheit, or Kelvin, and convert it to your desired unit!
+   - Technologies Used: HTML, CSS, JavaScript (jQuery), Bootstrap 4.6, VsCode, Vercel
+   - [Link to Project Repository](https://github.com/mridul0703/OIBSIP-Level-1/tree/main/OIBSIP%20Level-1%20Task-3)
+   - [Demo Link](https://temperature-converter-mridul.vercel.app/)
+</br>
 ## Contact
 
 For any queries or feedback, feel free to reach out to us at [contact@example.com](mailto:mridulmkumar07@gmail.com).
