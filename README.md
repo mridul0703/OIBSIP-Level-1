@@ -1,32 +1,53 @@
-# OASIS INFOBYTE INTERNSHIP TASK SUBMISSION REPOSITORY - Web Development and Designing.
+# Oasis Infobyte Internship Projects
 
-### Welcome to the Oasis Infobyte Internship Project repository! This repository contains details about the project deployments and provides a live link to the deployed application.
+Welcome to the Oasis Infobyte Internship Projects repository! This repository contains 5 projects undertaken during the internship. Each project aims to showcase various skills and technologies learned and applied during the internship period.
 
-## Deployment Details
+## Projects
 
-- Task 1 = Landing Page 
-  - Github Repository Code - [Code](https://github.com/mridul0703/OIBSIP/tree/main/OIBSIP%20Level-1%20Task-1)
-  - Live link - [Link](https://oasis1.vercel.app/)
+1. **OASIS_WD_01 - Responsive Landing Page**
+   </br></br>
+   <img alt="Responsive Landing Page" src="https://github.com/mridul0703/Prodigy-Infotech/blob/main/PRODIGY_WD_01/bg.png" />
+   - Description: Welcome to the Gaming Console Hub Landing Page! This landing page showcases the latest gaming consoles, providing users with information about various gaming options. It's built using HTML, CSS, and JavaScript, offering an engaging and interactive experience.
+   - Technologies Used: HTML, CSS, JavaScript.
+   - [Link to Project Repository](https://github.com/mridul0703/Prodigy-Infotech/tree/main/PRODIGY_WD_01)
+   - [Demo Link](https://landing-page-mridul.vercel.app/)
 
-- Task 2 = Personal Portfolio
-  - Github Repository Code - [Code](https://github.com/mridul0703/OIBSIP/tree/main/OIBSIP%20Level-1%20Task-2)
-  - Live link - [Link](https://mridul0703.vercel.app/)
- 
-- Task 3 = Temperature Convertor
-  - Github Repository Code - [Code](https://github.com/mridul0703/OIBSIP/tree/main/OIBSIP%20Level-1%20Task-3)
-  - Live link - [Link](https://oasis03.vercel.app/)
+2. **OASIS_WD_02 - Stop Watch Web Application**
+   </br></br>
+   <img alt="Stop Watch Web Application" src="https://github.com/mridul0703/Prodigy-Infotech/blob/main/PRODIGY_WD_02/readme-bg.jpg" />
+   - Description: Welcome to the Stopwatch Web Application! This application allows users to accurately measure and record time intervals. It's built using HTML, CSS, and JavaScript, providing an interactive and user-friendly experience.
+   - Technologies Used: HTML, CSS, JavaScript.
+   - [Link to Project Repository](https://github.com/mridul0703/Prodigy-Infotech/tree/main/PRODIGY_WD_02)
+   - [Demo Link](https://stop-watch-mridul.vercel.app/)
 
-## Contributing
-We welcome contributions from the community! If you'd like to contribute to this project, please follow these steps:
+3. **OASIS_WD_03 - Tic Tac Toe Web Application**
+  </br></br>
+   <img alt="Tic Tac Toe Web Application" src="https://github.com/mridul0703/Prodigy-Infotech/blob/main/PRODIGY_WD_03/Images/demo.png" />
+   - Description: This project is a simple yet fun Tic-Tac-Toe game built with React.js. Enjoy playing the game and explore the code to see how it's made!
+   - Technologies Used: React.js, JavaScript, CSS3, HTML, VsCode, Vercel
+   - [Link to Project Repository](https://github.com/mridul0703/Prodigy-Infotech/tree/main/PRODIGY_WD_03)
+   - [Demo Link](https://tic-tac-toc-mridul.vercel.app/)
 
-Fork this repository.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them with descriptive messages.
-Push your changes to your fork.
-Submit a pull request to the main branch of this repository.
+4. **OASIS_WD_04 - Personal Portfolio Website**
+   </br></br>
+   <img alt="Personal Portfolio Website" src="https://github.com/mridul0703/Prodigy-Infotech/blob/main/PRODIGY_WD_04/Images/readme-img1.png" />
+   - Description: This portfolio showcases my projects, skills, and experiences. Feel free to explore the different sections and projects!
+   - Technologies Used: React.js, JavaScript, CSS3, HTML, VsCode, Vercel
+   - [Link to Project Repository](https://github.com/mridul0703/Prodigy-Infotech/tree/main/PRODIGY_WD_04)
+   - [Demo Link](https://mridul0703.vercel.app/)
 
-## License
-This project is licensed under the MIT License.
+5. **OASIS_WD_05 - Weather App**
+    </br></br>
+   <img alt="Weather App" src="https://github.com/mridul0703/Prodigy-Infotech/blob/main/PRODIGY_WD_05/src/images/demo-image.png" />
+   - Description: Welcome to the Weather App! This application allows you to search for and view weather information for any city. It displays current weather data and supports both Celsius and Fahrenheit temperature units. Enjoy a responsive design for an optimal user experience across all devices.
+   - Technologies Used: React.js, Axios, OpenWeather API, CSS3, VsCode, Vercel
+   - [Link to Project Repository](https://github.com/mridul0703/Prodigy-Infotech/tree/main/PRODIGY_WD_05)
+   - [Demo Link](https://mridul-weather-app.vercel.app/)
 
 ## Contact
-For any inquiries or support, please contact us at example@example.com.
+
+For any queries or feedback, feel free to reach out to us at [contact@example.com](mailto:mridulmkumar07@gmail.com).
+
+## Star the Repo
+
+If you found these projects useful or interesting, please consider starring the repository to show your support!
